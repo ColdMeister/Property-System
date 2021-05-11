@@ -1,0 +1,37 @@
+{
+  "name": "property-system",
+  "version": "1.0.0",
+  "description": "property web system which uses nodejs and react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/src/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ColdMeister/property-system.git"
+  },
+  "author": "bryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColdMeister/property-system/issues"
+  },
+  "homepage": "https://github.com/ColdMeister/property-system#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "moment": "^2.29.1",
+    "n": "^7.2.2",
+    "npm": "^7.11.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
