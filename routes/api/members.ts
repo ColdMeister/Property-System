@@ -41,8 +41,8 @@ router.post('/',(req:Request, res:Response): any => {
 
     members.push(newMember);
 
-    //res.json(members);
-    res.redirect('/');
+    res.json(members);
+    //res.redirect('/');
 });
 
 
