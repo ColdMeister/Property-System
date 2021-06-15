@@ -25,7 +25,7 @@ router.get('/:id',(req:Request, res:Response): any => {
     
 });
 
-//Create a member
+//Create a member for testing
 router.post('/',(req:Request, res:Response): any => {
     //res.send(req.body);
     const newMember = {
